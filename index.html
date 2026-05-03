@@ -1,0 +1,125 @@
+<!DOCTYPE html> <html lang="ru">
+<head>
+    <meta charset="UTF-8">
+<title>Моя База: Shadowchaser</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul class="nav-links">
+
+                <li> <a href="#books">Книги</a> </li>
+
+                <li> <a href="#feedback">Отзывы</a> </li>
+
+                <li> <a href="library.html">Моя Библиотека</a> </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+    <h1 class="main-title">Мой путь во Front-end</h1>
+
+    <p class="subtitle">Я начинаю с самых основ, чтобы построить крепкий фундамент.</p>
+
+    <div class="skills">
+
+        <span class="skills-tag">HTML - Скелет</span>
+
+        <span class="skills-tag">CSS - Шмот</span>
+
+        <span class="skills-tag">JS - Мозги</span>
+
+    </div>
+
+<div class="container" id="books">
+
+    <div class="book-card">
+
+        <h3>Исповедь питониста</h3>
+
+        <img src="book.jpg" alt="Обложка моей книги" width="200">
+
+        <p>Автор: Иван Иванович</p>
+
+        <p>Рейтинг: 4.76 
+            <i class="fas-star" style="color: #ff9900;"></i>
+        </p>
+
+        <a href="#" class="btn">Подробнее</a>
+        
+    </div>
+
+
+    <div class="book-card">
+
+        <h3>Тайны Shadowchaser</h3>
+
+        <img src="book.jpg" alt="Обложка" width="200">
+
+        <p>Рейтинг: 5.0 ⭐</p>
+        
+    </div>
+
+</div>
+
+<section class="feedback" id="feedback">
+
+    <h2>Оставить отзыв о книге</h2>
+
+    <form>
+
+        <select class="input-field">
+
+        <option value="none">Выбери книгу...</option>
+
+        <option value="python">Исповедь питониста</option>
+        
+        <option value="shadow">Тайны Shadowchaser</option>
+
+    </select>
+
+        <input type="text"
+
+        placeholder="Твое имя"
+
+        class="input-field" required>
+
+        <textarea placeholder="Твой отзыв..." class="input-field" required></textarea>
+
+        <button type="submit"
+
+        class="btn">Отправить</button>
+
+    </form>
+
+</section>
+
+<footer>
+    <p>&copy; 2026 Shadowchaser. Все права защищены.</p>
+    
+    <div class="social-icons">
+
+        <a href="#"><i class="fabta-youtybe"></i>YouTube</a>
+        
+         <a href="#"><i class="fabta-discord"></i>Discord</a>
+
+
+    </div>
+
+</footer>
+
+</main>
+
+</body>
+
+</html>

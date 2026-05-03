@@ -1,0 +1,206 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.book-card {
+        border: 2px solid #ff9900;
+        padding: 15px;
+        width: 250px;
+        border-radius: 10px;
+        background-color: #252525;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+    }
+
+    .container {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    img {
+        border-radius: 5px;
+    }
+
+    .book-card:hover {
+        transform: scale(1.05) translateY(-10px);
+        box-shadow: 0 10px 20px rgba(255,153,0,0.5);
+    }
+
+    body {
+        background-color: #1a1a1a;
+        color: #ffffff;
+        padding: 40;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Inter', sans-serif;
+    }
+ 
+    h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+        color: #ff9900;
+    }
+
+    .subtitle {
+        font-style: italic;
+        opacity: 0.8;
+        margin-bottom: 20px;
+    }
+
+    .skills {
+        margin-bottom: 40px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .skills-tag {
+        background: #333;
+        padding: 5px 15px;
+        border-radius: 20px;
+        font-size: 14px;
+        border: 1px solid #555;
+        color: #ff9900;
+    }
+
+    .book-card .btn {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 10px 20px;
+        background-color: #27ae60;
+        color: white !important;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: 0.5s;
+    }
+
+    .book-card .btn:hover {
+        background-color: #2ecc71;
+        box-shadow: 0 0 15px;
+        transform: translateY(-5px);
+        color: white;
+    }
+
+    .feedback {
+        margin-top: 50px;
+        text-align: center;
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .input-field {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 15px;
+        background: #252525;
+        border: 1px solid #444;
+        border-radius: 8px;
+        color: white;
+        font-family: inherit;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+
+    .input-field:focus {
+        border-color: #2ecc71;
+        outline: none;
+    }
+
+    textarea.input-field {
+        height: 100px;
+        resize: vertical;
+    }
+
+    select.input-field option {
+        background-color: #252525;
+        color: white;
+    }
+
+    header {
+        background: #1a1a1a;
+        padding: 15px;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        border-bottom: 1px solid #ff9900;
+    }
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-links a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .nav-links a:hover {
+        color: #ff9900;
+    }
+
+    footer {
+        background: #111;
+        color: #888;
+        text-align: center;
+        padding: 40px 0;
+        margin-top: 50px;
+        border-top: 1px solid #333;
+        border-radius: 8px;
+    }
+
+    .social-icons a {
+        color: #888;
+        margin: 0 10px;
+        text-decoration: none;
+        font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+        .container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .book-card {
+            width: 90%;
+            max-width: 350px;
+        }
+    }
+
+    button {
+        background-color: #2ecc71;
+        color: #000;
+        padding: 12px 25px;
+        border: none;
+        border-radius: 8px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #27ae60;
+        transform: scale(1.05);
+        box-shadow: 0 0 15px rgba(46,204,113,0.6);
+    }
+
+    .main-title {
+        text-align: center;
+    }
+
+    .subtitle {
+        text-align: center;
+    }
+
+    
